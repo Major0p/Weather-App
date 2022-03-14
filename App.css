@@ -1,0 +1,48 @@
+.screen{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page{
+  background-image: url('../public/logo.png');
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
+
+.name{
+  text-align: center;
+  color: rgb(155, 112, 44);
+}
+
+.input{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+.input-search{
+  background-color: aliceblue;
+  border: 2px solid aqua;
+  border-radius: 10px ;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-search:hover{
+  background-color: white;
+  transform: scale(0.90);
+}
+
+.place,.temp{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.temp:hover{
+  color:  aqua;
+  transform: scale(1.07);
+}
+
